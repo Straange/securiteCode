@@ -1,0 +1,89 @@
+
+*{
+  cursor: url("cursors/cur_default.png"), default;
+}
+a, input{
+  cursor: url("cursors/cur_pointer .png"), default;
+}
+.content{
+  height: 100vh;
+  background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+}
+@font-face {
+  font-family: 'fakeserif';
+  src : url(FakeSerif.ttf);
+}
+.divFormulaire a
+{
+  border:1px solid white;
+  border-radius:5px;
+  margin:10px;
+  padding:5px 100px;
+  color:white;
+  font-weight: bold;
+  font-size:2.5vh;
+  background-color: rgba(170, 143, 216, 0.35);
+  transition: background-color 0.5s;
+}
+.divFormulaire a:hover
+{
+    stransition: background-color 0.5s;
+    background-color: rgba(170, 143, 216, 0.9);
+    text-decoration: none;
+    color:white;
+}
+.label
+{
+  font-weight: bold;
+  font-size:20px;
+  color:white;
+  text-decoration: underline;
+}
+.input
+{
+  border-radius:5px;
+  border:0px;
+  padding:10px 20px;
+  width: 450px;
+}
+.buttonConfirm
+{
+  border-radius:5px;
+  border:0px;
+  padding:10px 20px;
+  width: 350px;
+}
+.btnCorner{
+  position: absolute;
+  border:2px solid white;
+  border-radius: 5px;
+  display:inline;
+  margin:5px;
+  padding:5px 50px;;
+}
+.btnCorner, .btnCorner a
+{
+  color:white;
+  font-weight: bold;
+}
+.btnCorner a:hover
+{
+  color:white;
+}
+.divCustom{
+  border:2px solid white;
+  border-radius: 5px;
+  background-color: rgba(255,255,255,0.3);
+  padding:5px 10px;
+  color:#6f6f6f;
+  margin-bottom: 10px;
+}
+.btnlogout{
+  color: #fff;
+  background-color: rgba(220, 53, 69, 0.8);
+  border: 1px solid white;
+  padding:5px 15px;
+  margin:5px;
+  border-radius:5px;
+    cursor: url("cursors/cur_pointer .png"), default;
+}
